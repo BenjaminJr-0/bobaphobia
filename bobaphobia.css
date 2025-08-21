@@ -1,0 +1,31 @@
+#point_name{
+    text-align:center;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#boba_owned_text{
+    padding: 10px;
+    text-align:left;
+}
+
+#count_label{
+    display:block;
+    text-align:center;
+    font-size: 5em;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#point_container{
+    text-align: center;
+}
+.buttons{
+    padding:10px 20px;
+    font-size: 1.5em;
+    color:white;
+    background-color:peachpuff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+.buttons:hover{
+    background-color:rgb(201, 146, 99)
+}
