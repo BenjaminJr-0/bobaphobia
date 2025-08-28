@@ -3,6 +3,7 @@
 console.log(`Hola`)
 
 let username;
+let email;
 document.getElementById("mySubmit").onclick = function(){
     username = document.getElementById("usrname").value;
     document.getElementById("MyH1").textContent = `Welcome ${username}`

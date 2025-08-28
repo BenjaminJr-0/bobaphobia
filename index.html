@@ -4,73 +4,103 @@
     <meta mame="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" type="image/png" href="sprites/Yawning JellyFish Logo Mark One.png">
     <title> Yawning JellyFish</title>
-    <img src="sprites/Yawning JellyFish Logo Mark One.png" 
-    alt="Yawning Jellyfish Logo"
-    height="100">
-    </a>
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
+    <header id="main_header">
+      <img src="sprites/Yawning JellyFish Logo Mark One.png" 
+        alt="Yawning Jellyfish Logo"
+        height="100">
+        <!-- This just makes a floating box over text
+        <div id="floating_box">
+      <div id="cat">:3</div>
+    </div>
+      -->
+      <h1 id="meow">Welcome, To <strong>Yawning Jellyfish</strong></h1>
 
+      <a href="">Home</a>
+      <a href="">About Us</a>
+      <a href="">Products</a>
+      <a href="">Contact Us</a>
 
-    <a href="bobaphobia.html"
-    target="_blank"
-    title="Visits Bobaphobia">
-    <span style="background-color: grey;">Visit Bobaphobia :3</span>
-    </a>
-
-    <a href="login.html"
-    target="_blank"
-    title="Visits Login page">
+      <a href="login.html"
+      target="_blank"
+      title="Visits Login page">
       <span style="background-color: grey;">Login to your account</span>
-    </a>
+      </a>
+    </header>
 
-
-    <h1 id="meow">Welcome,</h1>
-      <h1> <div>To <strong>Yawning Jellyfish</strong></div></h1>
-    <h2>Here are some of our attractions :3</h2>
-    <p><span style="background-color: darkslateblue;">Please enjoy your dive here :3</span>  <span style="background-color: rgb(40, 168, 168);">(==</span></p>
-    
   </body>
   <body>
+    <h2>Here are some of our attractions :3</h2>
+    <p><span style="background-color: darkslateblue;">Please enjoy your dive here :3</span>  <span style="background-color: rgb(40, 168, 168);">(==</span></p>
+
+    <div id="lorem_box">
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore libero animi veritatis magni. Totam veniam, debitis eius voluptatum maiores ipsam consequuntur ea enim autem animi alias, exercitationem voluptatibus blanditiis asperiores! Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio unde fugiat nam beatae libero ab fugit repellat laudantium sapiente! Harum sequi repudiandae laborum soluta dolor optio? Quaerat fuga possimus magnam.</p>
+    </div>
+
+    <!--The Start of all the Activites on website with buttons linking to other html files-->
+
     <h3> Activities</h3>
-    <ul>
-      <li>Central Park <button>Teleport</button></li>
+    <div class="activity_container">
+      <div class="activities">
+      <li>Bobaphobia <button class= "tele_button" id="activities_button">Teleport</button></li>
+      <ul>
+        <li>Order Boba</li>
+        <li>Earn Tokens</li>
+        <li>Get Quests</li>
+       </div>
+    <div class="activities">
+      Central Park <button onclick="meow()" class="tele_button">Teleport</button>
       <ul>
         <li>Central Shops</li>
         <li>Community Events</li>
         <li>Trading</li>
       </ul>
-      <li>Wildlife Park <button>Teleport</button></li>
+    </div>
+    <div class="activities">
+      Wildlife Park <button>Teleport</button>
       <ul>
         <li>Vivarium</li>
         <li>Aquarium</li>
         <li>Museum</li>
         <li>Garden</li>
       </ul>
-      <li>Library <button>Teleport</button></li>
+    </div>
+    <div class="activities">
+      Library <button>Teleport</button>
       <ul>
         <li>Bestiary</li>
         <li>Encyclopedia</li>
         <li>Journals</li>
         <li>Quests</li>
       </ul>
-      <li>Creator's Hub <button>Teleport</button></li>
+    </div>
+    <div class="activities">
+      Creator's Hub <button>Teleport</button>
       <ul>
         <li>Photography</li>
         <li>Art</li>
         <li>Videos</li>
         <li>Music</li>
       </ul>
-      <li>Shops :3 <button>Teleport</button></li>
+    </div>
+      <div class="activities">
+      Shops :3 <button>Teleport</button>
       <ul>
         <li>Merch</li>
         <li>Character Customization</li>
         <li>Pet Customizatoin</li>
         <li>Badges</li>
-        <li>Redeem Tokens</li>
       </ul>
-    </ul>
+      </div>
+    </div>
+    <footer id="main_footer">
+      <hr>
+      <p style = color:#B2A3B5>Author: Benjamin Mendosa</p>
+      <small><a href="benjaminmendosa1202@gmail.com">BenjaminMendosa1202@gmail.com</a></small>
+    </footer>
+    <script src="teleport.js"></script>
   </body>
     
 </html>

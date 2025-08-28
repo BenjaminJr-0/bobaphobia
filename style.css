@@ -1,0 +1,68 @@
+/*Look into the display:block;  inline and inline-block
+ mess with width and height too.  checkout visibility:none; and hidden; */
+
+#main_header{
+    background-color: #1D1128;
+}
+
+#main_footer{
+    background-color: #1D1128;
+}
+
+body{
+    background-color: #5941A9;
+    color: #cabebe;
+}
+
+#lorem_box{
+    border:2px solid white;
+    height:200px;
+    width:400px;
+    margin-left: auto;
+    overflow:scroll;
+    
+}
+
+.tele_button{
+    background-color: whitesmoke;
+    cursor:pointer;
+    border-style: solid;
+    border-width:3px;
+    border-color:black;
+    border-radius:5px
+}
+/* These are margins. Also look into float for animal wiki*/
+.activities{
+    border:1px solid white;
+    margin-bottom:10px;
+    background-color: #462961;
+    box-sizing:border-box;
+    overflow:scroll;
+    width: 50%;
+    height:140px;
+    float:left;
+}
+.activity_container{
+  background-color: black;
+  height:25vh;
+}
+
+/*#floating_box{
+  width:100px;
+  height:100px;
+  background-color:white;
+  position:fixed;
+  left:1000px;
+  top:0px;
+}
+
+#cat{
+  width:75px;
+  height:75px;
+  background-color: #5941A9;
+  position: absolute;
+  top:13px;
+  left:13px;
+  text-align:center;  
+}
+*/
